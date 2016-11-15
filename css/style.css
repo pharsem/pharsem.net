@@ -11,10 +11,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Abel', sans-serif;
     color: #995668;
-    line-height: 0;
+    line-height: 8px;
 }
 
-p {
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p, ul {
     font-family: 'Lato', sans-serif;
     color: #192231;
     font-size: 14px;
@@ -37,6 +49,7 @@ a {
 .row {
     content: "";
     clear: both;
+    max-width: 1040px;
     display: block;
 }
 
@@ -159,6 +172,44 @@ footer ul a {
 
 #welcome h1 {
     text-align: center;
+}
+
+#about-img {
+    text-align: center;
+}
+
+#about-img img {
+    width: 200px;
+    height: auto;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.skills ul, .languages ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.skills i, .languages i {
+    float: right;
+    color: #995668;
+}
+
+.experience h3, .education h3, .achievements h3 {
+    line-height: 1;
+    margin-top: 0;
+}
+
+.subheading {
+    line-height: 0;
+    font-size: 12px;
+    color: #995668;
+}
+
+.skills, .experience, .education, .achievements, .languages, #about-text {
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 600px) {

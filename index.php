@@ -11,6 +11,7 @@
 </head>
 <body>
 <div id="container">
+
     <header>
         <a href="http://pharsem.net"><img src="images/logo_circle.svg" alt="Petter Harsem - pharsem.net"></a>
     </header>
@@ -40,26 +41,17 @@
                     that are easy to use, and this site is here for you to see what I'm good at.
                 </p>
                 <p>
-                    So why not head over and have a
-                    look at some of my past <a href="projects">projects</a>, or maybe read a bit more
-                    <a href="about">about me</a>? If you like what you see, please don't hesitate to
-                    <a href="contact">contact me</a>!
+                    So why not head over and have a look at some of my past <a href="projects">projects</a>,
+                    or maybe read a bit more <a href="about">about me</a>? If you like what you see,
+                    please don't hesitate to <a href="contact">contact me</a>!
                 </p>
             </div>
         </div>
 
     </section>
 </div>
-<footer>
-    <ul>
-        <li id="email"><a href="mailto:hello@pharsem.net"></a></li>
-        <li id="twitter"><a href="https://twitter.com/pharsem"></a></li>
-        <li id="facebook"><a href="https://www.facebook.com/harsem"></a></li>
-        <li id="linkedin"><a href="https://www.linkedin.com/in/pharsem"></a></li>
-        <li id="github"><a href="https://github.com/pharsem"></a></li>
-    </ul>
 
-</footer>
+<?php include 'includes/footer.php';?>
 
 </body>
 </html>
