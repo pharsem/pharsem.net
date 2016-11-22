@@ -37,8 +37,17 @@
             location. There are also links to get more information about both the event itself, the venue and a more
             detailed weather report.
         </p>
-        <p>Testing testing</p>
-        <p>Testing testing</p>
+        <p>
+            The application is based on the Google Maps API, the Eventful API and the OpenWeatherMap API. The interface
+            consists of a map that covers the whole window, a search/filter box and dynamic content on the map. Whenever
+            a user searches, moves the map or zooms in or out, a function is called to request event information from
+            Eventful, and the response from this is iterated through to place the markers on the map. Whenever a marker
+            is clicked, an info window pops up with the details about the event and weather information.
+        </p>
+        <p>
+            The project was completed as an assignment for INB365 Cloud Computing at Queensland University of Technology
+            in semester 2, 2014.
+        </p>
     </div>
 
 </div>

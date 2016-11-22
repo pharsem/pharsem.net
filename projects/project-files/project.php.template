@@ -1,0 +1,50 @@
+<head>
+
+    <style>
+        /*Insert project name as ID selector, update image path*/
+        #<project_name> {
+            background: url("../images/project-images/<project_name>.png") center center;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<!-- Insert project name as ID -->
+<div class="col-3 project" id="<project_name>">
+    <div class="project-heading">
+
+        <h2><!-- Project name --></h2>
+        <p class="subheading"><!-- Technologies used, format "#tech1 #tech2" --></p>
+    </div>
+    <div class="short-description">
+        <p><!-- Approx. 20 words max (107 char. incl. spaces) --></p>
+    </div>
+
+    <div class="project-content">
+        <!-- Update image path and alt. text -->
+        <img src="../images/project-images/<project_name>.png" alt="">
+        <ul>
+            <!-- Delete whatever's not necessary -->
+            <li><em>Type: </em><!-- Project type --></li>
+            <li><em>Time completed: </em><!-- When it was completed --></li>
+            <li><em>Technologies: </em><!-- Technologies used --></li>
+            <li><em>Code repository: </em><a href="https://github.com/pharsem/<repo_link>" target="_blank">GitHub</a></li>
+            <li><em>Full technical report: </em> <a href="/project-files/files/<report>.pdf" target="_blank">PDF</a></li>
+            <li><em>Demo: </em><a href="http://demo.pharsem.net/<demo_link>" target="_blank"><!-- Project name --></a></li>
+        </ul>
+
+        <p>
+            <!-- Long project description, add paragraphs -->
+        </p>
+
+    </div>
+
+</div>
+
+<script>
+    //Insert project name as ID selector
+    $("#<project_name>").click(function() {
+        $(this).toggleClass("expand");
+    });
+</script>
