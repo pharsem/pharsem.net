@@ -11,7 +11,7 @@
 
 </head>
 
-<div class="col-3 project" id="eventfinder">
+<div class="col-3 col-m-4 project" id="eventfinder">
     <div class="project-heading">
         <h2>Eventfinder</h2>
         <p class="subheading">#HTML #CSS #JS #AJAX #API</p>

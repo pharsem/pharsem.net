@@ -161,6 +161,10 @@ footer ul a {
     margin: 10px 15px;
 }
 
+#big-logo {
+    padding-right: 0;
+}
+
 #big-logo img {
     height: 180px;
     margin: 0 auto;
@@ -177,6 +181,7 @@ footer ul a {
 
 #about-img {
     text-align: center;
+    padding-right: 0;
 }
 
 #about-img img {
@@ -326,12 +331,16 @@ footer ul a {
         padding-right: 0;
     }
 
+    #big-logo img {
+        height: 280px;
+    }
+
     .project-heading, .short-description {
         width: 110%;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -345,6 +354,51 @@ footer ul a {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    .content {
+        margin: 50px 15px;
+    }
+
+    #big-logo img {
+        height: 400px;
+        margin: 50px auto;
+    }
+
+    #spacer {
+        height: 500px;
+        text-align: center;
+    }
+
+    #spacer span {
+        border-left: 1px solid rgba(25, 34, 49, 0.5);
+        height: 400px;
+        width: 1px;
+        display: inline-block;
+        margin: 50px auto;
+    }
+
+    #welcome {
+        height: 500px;
+        padding: 120px 0 0;
+    }
+
+    #welcome h1 {
+        text-align: left;
+    }
+
+    #about-img img {
+        width: 300px;
+        border-radius: 150px;
+        margin-top: 30px;
+    }
+
+    #resume {
+        padding-top: 50px;
+    }
+
+    #resume h1 {
+        text-align: center;
+    }
 
     .project-heading {
         margin-top: 82.5px;
@@ -367,6 +421,10 @@ footer ul a {
 
     .project:hover .short-description {
         margin-top: 95px;
+    }
+
+    .project-content img {
+        width: 60%;
     }
 
 }

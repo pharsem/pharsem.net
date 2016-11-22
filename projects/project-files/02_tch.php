@@ -11,7 +11,7 @@
 </head>
 
 <!-- Insert project name as ID -->
-<div class="col-3 project" id="tch">
+<div class="col-3 col-m-4 project" id="tch">
     <div class="project-heading">
 
         <h2>Townsville Children's Hospital</h2>

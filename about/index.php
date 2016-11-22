@@ -47,11 +47,11 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="resume">
             <h1>Resume</h1>
 
             <h2><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Key skills</h2>
-            <div class="col-4 skills">
+            <div class="col-4 col-m-4 skills">
                 <ul>
                     <li>HTML <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
                     <li>CSS <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
@@ -62,7 +62,7 @@
                 </ul>
 
             </div>
-            <div class="col-4 skills">
+            <div class="col-4 col-m-4 skills">
                 <ul>
                     <li>PHP <i class="fa fa-star-o"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
                     <li>MySQL <i class="fa fa-star-o"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
@@ -72,7 +72,7 @@
 
                 </ul>
             </div>
-            <div class="col-4 skills">
+            <div class="col-4 col-m-4 skills">
                 <ul>
                     <li>Joomla! <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
                     <li>Wordpress <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
@@ -153,7 +153,7 @@
 
         <div class="row">
             <h2><i class="fa fa-comments" aria-hidden="true"></i> Languages</h2>
-            <div class="col-4 languages">
+            <div class="col-4 col-m-4 languages">
                 <ul>
                     <li>English <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
                     <li>Norwegian <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>

@@ -30,8 +30,8 @@
                 <img src="images/logo_full.svg" alt="Petter Harsem - pharsem.net">
             </div>
 
-            <div class="col-2" id="spacer">
-
+            <div class="col-1" id="spacer">
+                <span></span>
             </div>
 
             <div class="col-5" id="welcome">
